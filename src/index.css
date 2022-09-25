@@ -1,3 +1,17 @@
+#root {
+  height: 100%;
+  --borderColor: rgb(157, 219, 157);
+  --boxShadowColor: rgb(157, 219, 157,.5);
+  --mixColor: rgb(216, 216, 19, .25);
+  --mainFontColor: rgb(133, 79, 21);
+  --backGroundColor: rgb(157, 219, 157, .75);
+  --linkVisitedColor: rgb(180, 158, 127);
+}
+
+.navbar {
+  background-color: var(--backGroundColor);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
