@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../index.css'
 
-function Navigation() {
+const Navigation = () => {
   return (
     <Navbar className="navbar" expand="lg">
       <Container>
