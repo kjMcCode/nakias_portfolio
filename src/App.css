@@ -36,3 +36,11 @@
   background-size: cover;
   margin-top: 10px;
 }
+
+.profilepic {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+  height: 350px;
+}
