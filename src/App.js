@@ -13,7 +13,6 @@ import Theme2 from './pages/Theme2';
 import Theme3 from './pages/Theme3';
 
 
-
 function App() {
   return (
     <Router>

@@ -2,15 +2,15 @@
 import React from "react"
 import { Link } from 'react-router-dom'
 
-const DesignTheme1 = () => {
+const DesignThemes = () => {
     return (
-        <div>
-        <h1>Design Themes</h1>
-        <Link to="/theme/1">Theme 1</Link>
-        <Link to="/theme/2">Theme 2</Link>
-        <Link to="/theme/3">Theme 3</Link>
+        <div className="container w-25 mt-5">
+            <h1 className="mb-4">Design Themes</h1>
+            <p><Link to="/theme/1">Theme 1</Link></p>
+            <p><Link to="/theme/2">Theme 2</Link></p>
+            <p><Link to="/theme/3">Theme 3</Link></p>
         </div>
     )
 }
 
-export default DesignTheme1
+export default DesignThemes

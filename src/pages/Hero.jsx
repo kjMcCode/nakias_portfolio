@@ -1,12 +1,13 @@
 import React from "react";
 import 'bootstrap'
 import '../index.css'
+import landscapeNakia from '../assets/landscapeNakia2.jpg'
 
 const Hero = () => {
 return(
         <div 
         className='p-5 text-center bg-image jumbotron-image'
-        style={{ backgroundImage: "url('https://mdbootstrap.com/img/new/slides/041.webp')", height: 500 }}
+        style={{ backgroundImage:`url(${landscapeNakia})`, height: 500 }}
       >
         <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.3)', height: 400 }}>
           <div className='d-flex justify-content-center align-items-center h-100'>

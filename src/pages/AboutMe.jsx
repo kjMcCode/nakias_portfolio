@@ -1,18 +1,34 @@
-import profilePic from '../assets/profilepic.jpg'
+import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image'
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+import trueSelfie from  '../assets/trueSelfie.jpg'
 
 const AboutMe = () => {
     return (
-        <section className="=aboutme">
-            <div className="profile-photo">
-                <img className="profilepic" src={profilePic} alt="profile" />
-            </div>
-            <div className="profile-info">
-                <p className="name">Nakia McNeil</p>
-                <p className="about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum quo rerum architecto explicabo velit ea similique repellendus, ipsum tempore error veritatis, commodi consequatur inventore aliquid praesentium nam quaerat, sed alias!<br/>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente repellat aut quisquam tenetur harum blanditiis. Minus, quam nulla mollitia fugit ipsam, distinctio velit tempora officia laboriosam quas in? Ex, quia?<br/>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, hic? Facere doloremque soluta quia tempora consequatur, distinctio illo amet atque provident. Neque, illo? Repellendus accusamus esse est obcaecati earum voluptatem!</p>
-            </div>
-        </section>
+        <Container>
+        <Row className="my-5">
+            <Col sm={12}>
+            <Image align="center" rounded src={trueSelfie} width={300} height={300} />
+            </Col>
+        </Row>
+        <Row className="my-5">
+            <Col md={{ span: 6, offset: 3 }}>
+                <Card>
+                <Card.Body>
+                <Card.Title>About Me</Card.Title>
+                <Card.Text>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ullam recusandae a dolorem voluptate quas magni quasi tenetur corporis debitis dolore doloribus, odit, neque temporibus aspernatur distinctio deleniti minus voluptates. <br /><br />
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ullam recusandae a dolorem voluptate quas magni quasi tenetur corporis debitis dolore doloribus, odit, neque temporibus aspernatur distinctio deleniti minus voluptates.<br /><br />
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ullam recusandae a dolorem voluptate quas magni quasi tenetur corporis debitis dolore doloribus, odit, neque temporibus aspernatur distinctio deleniti minus voluptates.<br /><br />
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ullam recusandae a dolorem voluptate quas magni quasi tenetur corporis debitis dolore doloribus, odit, neque temporibus aspernatur distinctio deleniti minus voluptates.
+                </Card.Text>
+                </Card.Body>
+                </Card>
+            </Col>
+          </Row>
+        </Container>
     )
 }
 
