@@ -13,7 +13,7 @@ return(
             <div className='text-white'>
               <h1 id="test" className='mb-3'>Nakia McNeil</h1>
               <h4 className='mb-3'>Aspiring Graphic Designer</h4>
-              <a className='btn btn-outline-light btn-lg' href='#!' role='button'>
+              <a className='btn btn-outline-light btn-lg' href='/designthemes' role='button'>
                 See My Designs
               </a>
             </div>
